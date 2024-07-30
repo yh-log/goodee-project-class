@@ -7,4 +7,10 @@ public class Light extends Spell {
 		return "번개" + super.casting();
 	}
 
+	@Override
+	public String speed() {
+		// TODO Auto-generated method stub
+		return super.speed() + 150;
+	}
+
 }

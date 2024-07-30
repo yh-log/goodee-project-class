@@ -16,20 +16,6 @@ public class Mage {
 		spell = new Light();
 		System.out.println(spell.casting());
 		
-//		클래스를 변수로 넣어서 for문으로 casting를 출력해보기. (내일 오전에 함)
-		
-		System.out.println();
-		
-		Spell[] spellArr = new Spell[3];
-		
-		spellArr[0] = new Fire();
-		spellArr[1] = new Ice();
-		spellArr[2] = new Light();
-
-		for(Spell arr : spellArr) {
-			System.out.println(arr.casting());
-		}
-		
 		
 	}
 

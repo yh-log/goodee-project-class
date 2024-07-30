@@ -7,4 +7,10 @@ public class Ice extends Spell {
 		return "얼음" + super.casting();
 	}
 
+	@Override
+	public String speed() {
+		// TODO Auto-generated method stub
+		return super.speed() + 100;
+	}
+
 }
