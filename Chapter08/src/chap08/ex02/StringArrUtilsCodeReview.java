@@ -12,7 +12,7 @@ public class StringArrUtilsCodeReview {
 //	4. while이 반복하는 조건은 intResult 가 -1보다 클 경우이며, 이는 더이상 찾을 문자열이 없을 경우 -1을 반환하기 때문이다.
 //	5. 반복문이 시작하면 먼저 .indexOf() 메서드를 활용해 c의 위치를 찾아준다.
 //	   이때 위치는 intResult의 위치인 0부터 시작한다.
-//	6. 이후 무한반복을 막기 위해 if문을 사용해 intResult가 -1보다 클 경우 intResult를 출력해주고, 
+//	6. if문을 사용해 intResult가 -1보다 클 경우 intResult를 출력해주고, (if는 찾은 위치를 알려주기 위해 사용)
 //	7. 현재 찾은 인덱스 위치의 다음부터 찾기 위해 intResult를 1 증가시킨다.
 //	8. 이후 조건이 만족될 때까지 이를 반복한다. 
 	
