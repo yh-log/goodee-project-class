@@ -27,6 +27,7 @@ public class BufferUse {
 		
 //		read를 해주면 읽고 바로 날려버리니까 변수에 담아서 넘길 수 있도록
 //		데이터 용량을 알지 못하니까 for가 아닌 while 사용
+//		data 에는 read로 읽어온 내용을 옮겨야 하기 때문에 저장하는 용도
 		while ((data = bis.read()) != -1) { // -1이 아닐 때까지 (읽어올 데이터가 없을 때까지) 반복
 			bos.write(data); // bis에서 data로 넘어간 데이터를 bos에 쓰기
 		}
